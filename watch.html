@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stop Watch</title>
+        <link rel="stylesheet" href="watch.css">
+    </head>
+    <body>
+        <div id="container">
+        <div id="display">
+            00:00:00
+        </div>
+        <div class="controls">
+            <button onclick="start()">Start</button>
+            <button onclick="pause()" >Pause</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="lap()">Lap</button>
+          </div>
+        
+        <ul id="laps"></ul>
+        </div>
+      <script src="watch.js"></script>
+    </body>
+</html>
